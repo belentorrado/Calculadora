@@ -1,9 +1,0 @@
-La función callback es una función que se pasa a otra función como parámetro para que sea llamada de nuevo en un momento posterior lo que nos permite ampliar nuestra funcionalidad. 
-
-Se debe utilizar este tipo de funciones cuando se necesita realizar una ejecución asíncrona.
-
-Ejemplo de llamada:
-
-suma(1,2,function() {
-console.log("Suma exitosa");
-});
